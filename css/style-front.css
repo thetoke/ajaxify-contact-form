@@ -1,12 +1,12 @@
 /* Contact */
-.fcf-envelope {
+body .fcf-envelope {
     background: url(../images/envelope-bg.png) no-repeat bottom;
     width:720px;
     height:400px;
     margin: 50px auto;
     position: relative;
 }
-.fcf-envelope-ft {
+body .fcf-envelope-ft {
     background: url(../images/envelope-ft.png) no-repeat bottom;
     width: 716px;
     height: 349px;
@@ -23,20 +23,20 @@
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
 }
-.fcf-contact {
+body .fcf-contact {
     width: 100%;
     overflow: hidden;
     position: fixed;
     min-height:500px;
 }
-.fcf-letter {
+body .fcf-letter {
     background: url(../images/letter.png) repeat;
     width:700px;
     height:400px;
     margin: 0px auto;
     position: relative;
 }
-.fcf-stamp {
+body .fcf-stamp {
     -webkit-transform: rotate(10deg);
     background: url(../images/stamp/photo.jpg) no-repeat 20px 20px;
     height: 154px;
@@ -45,12 +45,12 @@
     top: -30px;
     left: 60px;
 }
-.fcf-stamp-borders {
+body .fcf-stamp-borders {
     background: url(../images/stamp/stamp.png) no-repeat;
     height: 154px;
     width: 134px;
 }
-.fcf-lines {
+body .fcf-lines {
     background: url(../images/stamp/lines.png) no-repeat;
     height: 60px;
     position: absolute;
@@ -58,19 +58,19 @@
     bottom: 12px;
     left: 12px;
 }
-.fcf-contact-form .left{
+body .fcf-contact-form .left{
     width: 330px;
     height: 380px;
     float: left;
     padding:10px;
 }
-.fcf-contact-form .right{
+body .fcf-contact-form .right{
     width: 330px;
     height: 240px;
     float: right;
     padding:100px 10px 10px 10px;
 }
-.fcf-contact-form label{
+body .fcf-contact-form label{
     width: 350px;
     min-height: 23px;
     color: #3E022F;
@@ -80,18 +80,18 @@
     float: left;
     text-shadow: none !important;
 }
-.fcf-contact-form textarea {
+body .fcf-contact-form textarea {
     width: 320px;
     height: 325px;
     overflow: hidden;
     padding: 10px;
 }
-.fcf-contact-form .input {
+body .fcf-contact-form .input {
     width: 305px;
     height: 30px;
     padding: 5px 10px;
 }
-.fcf-contact-form .textarea, .fcf-contact-form .input, .fcf-contact-form .submit {
+body .fcf-contact-form .textarea, .fcf-contact-form .input, .fcf-contact-form .submit {
     box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.3);
     background: #FFF;
     outline: none;
@@ -99,20 +99,20 @@
     float: left;
     text-shadow: none !important;
 }
-.fcf-contact-form .textarea:focus, .fcf-contact-form .input:focus, .fcf-contact-form .submit:focus{
+body .fcf-contact-form .textarea:focus, .fcf-contact-form .input:focus, .fcf-contact-form .submit:focus{
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
-.fcf-contact-form .req {
+body .fcf-contact-form .req {
     font-weight: normal;
     font-style: italic;
     font-size: 9px;
 }
-.fcf-contact-success .submit-contact-button-success {
+body .fcf-contact-success .submit-contact-button-success {
     float: right;
 }
 
-.fcf-contact-success .submit-contact-button-success,
-.fcf-contact-form .submit-contact-button {
+body .fcf-contact-success .submit-contact-button-success,
+body .fcf-contact-form .submit-contact-button {
     text-transform: uppercase !important;
     cursor: pointer !important;
     margin: 20px 0 0 0 !important;
@@ -131,14 +131,14 @@
     text-shadow: none !important;
 }
 
-.fcf-contact-success .submit-contact-button-success {
+body .fcf-contact-success .submit-contact-button-success {
     float: left;
     position: absolute;
     top: 170px;
     left: 100px;
 }
 
-.fcf-alphabet {
+body .fcf-alphabet {
     width:20px;
     height:20px;
     border-radius:50px;
@@ -149,14 +149,14 @@
     color: #fff;
 }
 
-.fcf-message{
+body .fcf-message{
     color:white;
     font-size:40px;
     display:none;
     text-align:center;
 }
 
-.ajaxcontactform-show {
+body .ajaxcontactform-show {
     position: fixed;
     width: 45px;
     height: 120px;
@@ -167,11 +167,11 @@
     cursor: pointer;
 }
 
-.ajaxcontactform-show.opened {
+body .ajaxcontactform-show.opened {
     background: url(../images/btn_feedback_hover.png) no-repeat 0 0;
 }
 
-#close-button-fancybox {
+body #close-button-fancybox {
     position: absolute;
     top: 0;
     right: 0;
@@ -184,7 +184,7 @@
     line-height: 40px;
 }
 
-.fcf-contact-success {
+body .fcf-contact-success {
     display: none;
     width: 100%;
     background: transparent;
@@ -194,7 +194,7 @@
     z-index: 999;
 }
 
-.fcf-contact-holder {
+body .fcf-contact-holder {
 
     margin: 0 auto;
     padding: 0px;
@@ -212,7 +212,7 @@
     -moz-box-shadow: 5px 5px 6px #272727;
 }
 
-.fcf-confirmation {
+body .fcf-confirmation {
     float: right;
     padding-top: 20px;
     margin-top: 95px;
@@ -226,7 +226,7 @@
     left: 20px;
 }
 
-.ajaxcontactform-wrapper {
+body .ajaxcontactform-wrapper {
     width: 100%;
     position: absolute;
     top: 0;
@@ -234,7 +234,7 @@
     float: left;
 }
 
-.fancyforn-window-overlay {
+body .fancyforn-window-overlay {
     display: none;
     opacity: 0.3;
     filter: alpha(opacity=30);
@@ -246,8 +246,8 @@
     left: 0;
 }
 
-.fcf-contact-form .textarea.notvalid,
-.fcf-contact-form .input.notvalid {
+body .fcf-contact-form .textarea.notvalid,
+body .fcf-contact-form .input.notvalid {
     background: #DD5F5B;
     color: #fff;
 }
