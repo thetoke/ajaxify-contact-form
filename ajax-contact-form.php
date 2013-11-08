@@ -1,14 +1,14 @@
 <?php
 /**
  * @package  * AJAX Contact Form
- * @version 1.0.2
+ * @version 1.0.4
  */
 /*
 Plugin Name: AJAX Contact Form
 Plugin URI: http://www.magazento.com/
 Description: Simple and nice AJAX contact form plugin for your website
 Author: Magazento
-Version: 1.0.3
+Version: 1.0.4
 Author URI: http://www.magazento.com/
 License: GPLv2 or later
 */
